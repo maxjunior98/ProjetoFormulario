@@ -6,7 +6,7 @@ export default function InfoBlock(props) {
     return(
         <InfoBlockStyle>
             <div>{props.title}</div>
-            <InfoField />
+            <InfoField val={props.val}/>
         </InfoBlockStyle>
     )
 }

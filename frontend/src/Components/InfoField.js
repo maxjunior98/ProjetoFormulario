@@ -1,8 +1,8 @@
 import { InfoFieldStyle } from '../Styles/InfoFieldStyle'
 import React from 'react'
 
-export default function InfoField() {
+export default function InfoField(props) {
     return (
-        <InfoFieldStyle>123</InfoFieldStyle>
+        <InfoFieldStyle>{props.val}</InfoFieldStyle>
     )
 }

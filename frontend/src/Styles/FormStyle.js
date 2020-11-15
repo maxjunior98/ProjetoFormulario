@@ -6,7 +6,7 @@ export const FormStyle = styled.section`
     border-radius: 8px;
     background: #FFFFFF;
     width: 500px;
-    height: 420px;
+    height: 480px;
     padding: 16px;
     display: flex;
     flex-direction: column;
